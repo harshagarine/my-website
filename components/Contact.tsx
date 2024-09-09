@@ -13,18 +13,17 @@ export default function Contact() {
       </div>
       <div className="flex flex-col gap-4 lg:px-6 mb-8">
         <h2 className="lg:block hidden text-5xl font-bold lg:text-start">
-          Get In Touch
+          Hire me!
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
-          I&#39;m always on the lookout for new opportunities and my inbox is
-          open for all. If you&#39;re considering my contribution, have a
-          question, or just want to say hi, you can count on hearing back from
+          I&#39;m looking for internship and full time opportunites and my inbox is
+          open for all. If you&#39;re considering to hire me, have any suggestions, or just want to say hi, you can count on hearing back from
           me!
         </p>
       </div>
       <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">
         <a
-          href="mailto:alexander@meikopoulos.com"
+          href="mailto:garineharsha@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:cursor-pointer w-full"

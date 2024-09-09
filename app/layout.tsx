@@ -7,23 +7,23 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("https://www.linkedin.com/in/harshagarine/"),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "https://www.linkedin.com/in/harshagarine/",
   },
-  title: "Alexander Meikopoulos",
+  title: "Harsha Garine",
   description:
-    "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
+    "Harsha Garine is a Software Engineer, Data Science and AI nerd.",
   keywords:
-    "Alexander Meikopoulos, Front-end Engineer, Project Leader, Web Development, Web3, Decentralized Applications, Quality Assurance, Software Engineering, Blockchain, Cryptography",
+    "Harsha Garine, Front-end Engineer, Software Engineer, Web Development, Angular, Quality Assurance, Software Engineering, AI, machine learning, Artificial Engineering, Generative AI, deep learning",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Harsha Garine",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Harsha Garine",
     description:
-      "Alexander Meikopoulos is a Front-End Software Engineer, founder, and Quality nerd.",
-    url: "https://meikopoulos.com",
+      "Harsha Garine is a Software Engineer, Data Science and AI nerd.",
+    url: "https://www.linkedin.com/in/harshagarine/",
     images: [
       {
         url: "./og-large-meik.jpg",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    title: "Harsha Garine",
   },
 };
 

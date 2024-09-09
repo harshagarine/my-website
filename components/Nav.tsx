@@ -1,7 +1,7 @@
 "use client";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 import { ModeToggle } from "./ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
 
@@ -46,22 +46,21 @@ export default function Nav() {
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
         <div className="w-full flex lg:items-center lg:justify-start">
-          <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
+          <Avatar className="w-30 lg:w-40 h-auto border-2 border-primary bg-secondary">
             <AvatarImage src="./avatar.png" />
-            <AvatarFallback className="w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
+            <AvatarFallback className="w-48 h-48 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
               AM
             </AvatarFallback>
           </Avatar>
         </div>
-        <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, i&#39;m Alexander 👋
+        <h1 className="text-[30px] font-bold lg:text-start">
+          Hi, i&#39;m Harsha 👋
         </h1>
         <h2 className="text-xl lg:text-start">
-          Front-End Developer, founder, and Quality nerd.
+          Software Engineer, Data Science and AI nerd.
         </h2>
-        <p className="text-lg lg:text-start text-muted-foreground">
-          I build seamless, user-first applications and web experiences that
-          bridge the gap between tech and people.
+        <p className="text-[15px] lg:text-start text-muted-foreground">
+          Pursuing MS Software Engineering from SJSU, with 2+ years of experience in Angular and ETL workflows. I love data and the potential it withholds, currently working on Gen AI.
         </p>
       </div>
       <nav className="lg:flex hidden">
@@ -84,7 +83,7 @@ export default function Nav() {
       <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
         <Button variant="outline" size="icon">
           <a
-            href="https://github.com/0xAlexander"
+            href="https://github.com/harshagarine"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -93,11 +92,20 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://linkedin.com/in/0xAlexander"
+            href="https://www.linkedin.com/in/harshagarine/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Linkedin className="h-[1.2rem] w-[1.2rem]" />
+          </a>
+        </Button>
+        <Button variant="outline" size="icon">
+          <a
+            href="https://www.instagram.com/garinee/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Instagram className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
         <ModeToggle />
