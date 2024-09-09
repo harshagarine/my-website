@@ -12,7 +12,7 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "./public/swoop-og-banner.webp",
+    
     title: "Swoop Exchange - Landing Page",
     description:
       "Swoop's landing page highlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps. Swoop Exchange has achieved millions in USD volume and currently has around 4000 monthly users with 0 paid marketing.",
@@ -28,7 +28,6 @@ const jobProjects = [
     link: "https://swoop.exchange",
   },
   {
-    imagePath: "/app-front-1.png",
     title: "Swoop Exchange - Application",
     description:
       "Swoop Exchange is a next generation Meta Decentralized Exchange and Bridge Aggregator. By Aggregating the Aggregators, Bridges, and Liquidity across chains, and off-chain it solves protocol and liquidity fragmentation, significantly improving UX. Provides access to: 450,000+ Tokens, 7+ Aggregators, 13+ Bridges, 50+ DEXs, 280+ Liquidity Sources and 16+ Blockchains.",
@@ -44,7 +43,6 @@ const jobProjects = [
     link: "https://app.mtopswap.com",
   },
   {
-    imagePath: "/meikopoulos.com_PC.png",
     title: "meikopoulos.com",
     description:
       "The portfolio webpage you are looking at right now. Based on Brittany Chiang's website (they awesome). Coded in Visual Studio Code.",
@@ -72,14 +70,6 @@ export default function Projects() {
           >
             <Card className="group lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">
               <CardHeader className="h-full w-full lg:w-1/3 mb-4 p-0">
-                <Image
-                  src={project.imagePath}
-                  alt={`Screenshot of ${project.title}`}
-                  width={1920}
-                  height={1080}
-                  priority
-                  className="bg-[#141414] mt-2 border border-muted-foreground rounded-[0.5rem]"
-                />
               </CardHeader>
               <CardContent className="flex flex-col p-0 w-full lg:w-2/3">
                 <p className="text-primary font-bold">
