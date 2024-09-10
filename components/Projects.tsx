@@ -13,7 +13,7 @@ import { MoveUpRight } from "lucide-react";
 const jobProjects = [
   {
     
-    title: "Swoop Exchange - Landing Page",
+    title: "Harsha Exchange - Landing Page",
     description:
       "Swoop's landing page highlights the platform's use cases and solutions. Swoop Exchange is a Meta-DEX Aggregator that automatically sources, ranks and routes quotes from the best DEX Aggregators and Bridges, ensuring the best prices for on-chain and cross-chain swaps. Swoop Exchange has achieved millions in USD volume and currently has around 4000 monthly users with 0 paid marketing.",
     skills: [
@@ -25,7 +25,6 @@ const jobProjects = [
       "Vercel",
       "Figma",
     ],
-    link: "https://swoop.exchange",
   },
   {
     title: "Swoop Exchange - Application",
@@ -40,14 +39,13 @@ const jobProjects = [
       "Vercel",
       "Figma",
     ],
-    link: "https://app.mtopswap.com",
   },
   {
     title: "meikopoulos.com",
     description:
       "The portfolio webpage you are looking at right now. Based on Brittany Chiang's website (they awesome). Coded in Visual Studio Code.",
     skills: ["Typescript", "JavaScript", "Tailwind CSS", "Vercel"],
-    link: "https://github.com/0xAlexander/my-website",
+  
   },
 ];
 
