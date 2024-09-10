@@ -61,7 +61,6 @@ export default function Projects() {
         {jobProjects.map((project, index) => (
           <a
             key={index}
-            href={project.link}
             target="_blank"
             rel="noopener noreferrer"
             className="hover:cursor-pointer"
