@@ -13,7 +13,7 @@ export default function Footer() {
           <a className="text-foreground" href="https://brittanychiang.com" target="_blank">
           Brittany Chiang&#39;s
           </a>{" "}
-          websites (they awesome). Coded in{" "}
+          design. Coded in{" "}
           <a className="text-foreground" href="https://code.visualstudio.com/" target="_blank">
             Visual Studio Code.
           </a>{" "}
@@ -30,8 +30,8 @@ export default function Footer() {
             Shadcn/ui
           </a>
           , deployed with{" "}
-          <a className="text-foreground" href="https://vercel.com/" target="_blank">
-            Vercel
+          <a className="text-foreground" href="https://github.com/" target="_blank">
+            Github Pages
           </a>
           .
         </p>

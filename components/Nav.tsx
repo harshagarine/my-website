@@ -1,7 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Github, Instagram, Linkedin } from "lucide-react";
+import { Camera, Github, Instagram, Linkedin } from "lucide-react";
 import { ModeToggle } from "./ui/toggle-mode";
 import useActiveSection from "@/hooks/useActiveSection";
 
@@ -45,13 +44,13 @@ export default function Nav() {
   };
 
   return (
-    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
-      <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
-        <h1 className="text-[50px] font-bold lg:text-start">
+    <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-2/5 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
+      <div className="flex flex-col gap-2 mt-6 lg:mt-0">
+        <h1 className="text-[50px] font-bold lg:w-max lg:text-start">
           Hi, i&#39;m Harsha 👋
         </h1>
-        <h2 className="text-l lg:text-start">
-          Software Engineer, Data Science and AI nerd.
+        <h2 className="text-[18px] lg:text-start">
+          Software Engineering, Data Science and AI nerd.
         </h2>
         <p className="text-[15px] lg:text-start text-muted-foreground">
           Software Engineering graduate student at SJSU, previously I worked at Deloitte as a software engineer. I love data and the potential it withholds, currently working on Gen AI.
@@ -100,6 +99,15 @@ export default function Nav() {
             rel="noopener noreferrer"
           >
             <Instagram className="h-[1.2rem] w-[1.2rem]" />
+          </a>
+        </Button>
+        <Button variant="outline" size="icon">
+          <a
+            href="https://vsco.co/garinex/gallery"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Camera className="h-[1.2rem] w-[1.2rem]" />
           </a>
         </Button>
         <ModeToggle />
