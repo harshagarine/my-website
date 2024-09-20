@@ -15,6 +15,7 @@ export default function Nav() {
     "about",
     "experience",
     "projects",
+    "research",
     "contact",
   ]);
 
@@ -22,6 +23,7 @@ export default function Nav() {
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
+    { name: "Research", href: "#research" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -45,22 +47,14 @@ export default function Nav() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
-        <div className="w-full flex lg:items-center lg:justify-start">
-          <Avatar className="w-30 lg:w-40 h-auto border-2 border-primary bg-secondary">
-            <AvatarImage src="./avatar.png" />
-            <AvatarFallback className="w-48 h-48 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
-              AM
-            </AvatarFallback>
-          </Avatar>
-        </div>
-        <h1 className="text-[30px] font-bold lg:text-start">
+        <h1 className="text-[50px] font-bold lg:text-start">
           Hi, i&#39;m Harsha 👋
         </h1>
-        <h2 className="text-xl lg:text-start">
+        <h2 className="text-l lg:text-start">
           Software Engineer, Data Science and AI nerd.
         </h2>
         <p className="text-[15px] lg:text-start text-muted-foreground">
-          Pursuing MS Software Engineering from SJSU, with 2+ years of experience in Angular and ETL workflows. I love data and the potential it withholds, currently working on Gen AI.
+          Software Engineering graduate student at SJSU, previously I worked at Deloitte as a software engineer. I love data and the potential it withholds, currently working on Gen AI.
         </p>
       </div>
       <nav className="lg:flex hidden">

@@ -1,5 +1,5 @@
 "use client";
-
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 export default function About() {
   return (
     <section id="about" className="scroll-mt-16 ">
@@ -10,6 +10,14 @@ export default function About() {
       </div>
       
       <div className="flex flex-col gap-4">
+      <div className="w-full flex lg:items-center lg:justify-center mb-6">
+          <Avatar className="w-60 lg:w-72 h-auto border-2 border-primary bg-secondary">
+            <AvatarImage src="./avatar.png" />
+            <AvatarFallback className="w-72 h-72 lg:w-60 lg:h-60 rounded-full border-1 border-primary">
+              AM
+            </AvatarFallback>
+          </Avatar>
+        </div>
         <p className="text-start text-muted-foreground lg:px-6">
         Hey there! I’m Harsha, a software engineering graduate student at SJSU. Currently, I’m a founder’s intern at
 Akube.ai, where I’m involved in key decisions as a Gen AI engineer. Previously, at Deloitte, I worked on
@@ -17,6 +25,7 @@ revolutionary NLP technologies, creating a significant impact with our document 
 engineer and explorer at heart, which led me to pursue a graduate degree in Silicon Valley far from home.
 Driven by a passion for innovation and creating an impact, I’m seeking full-time employment in the Gen AI
 space.
+
         </p>
       </div>
     </section>

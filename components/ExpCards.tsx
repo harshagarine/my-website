@@ -31,9 +31,7 @@ const jobPositions = [
       "Data comparison",
       "Angular",
       ".NET",
-      "SQL Server",
-      "NER",
-      "OCR",
+
     ],
   },
   {
@@ -49,7 +47,6 @@ const jobPositions = [
       "ReactJS",
       "NodeJS",
       "MongoDB",
-      "MERN stack",
       "Heroku",
       "UX/UI design",
     ],
