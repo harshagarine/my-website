@@ -20,15 +20,15 @@ const jobPositions = [
       "I've designed and developed data workflows on Alteryx to streamline ETL processes for data summarization, cleansing, and comparison. Additionally, I created a data-transformation module integrating Alteryx workflows with the MyGI Deloitte portal using Angular, .NET, and SQL Server. Presented the Document Summarizer Platform (POC) with Named Entity Recognition (NER), Optical Character Recognition (OCR), and text classification, significantly optimizing the processing of over 1,000 tax R&D documents and reducing processing time.",
     skills: [
       "Alteryx",
-      "ETL processes",
+      "ETL Processes",
       "Angular",
       ".NET",
       "SQL Server",
       "Azure Cloud",
       "NER",
       "OCR",
-      "Data summarization",
-      "Data cleansing",
+      "Data Summarization",
+      "Data Cleansing",
     ],
   },
   {
@@ -39,13 +39,13 @@ const jobPositions = [
     description:
       "I developed a multifaceted approach incorporating three deep learning algorithms, including Generative Adversarial Networks (Real ESR-GAN), to improve the perceptual quality of Single Image Super-Resolution by 40%. Additionally, I created a MERN stack web application hosted on Heroku, allowing users to upload, preview, and compare images with a seamless UX/UI for enhancing image resolution.",
     skills: [
-      "Generative Adversarial Networks (GAN)",
+      "Generative Adversarial Networks",
       "Deep learning",
       "ReactJS",
       "NodeJS",
       "MongoDB",
       "Heroku",
-      "UX/UI design",
+      "UX/UI",
     ],
   },
   {
@@ -60,9 +60,9 @@ const jobPositions = [
       "Beautiful Soup",
       "Excel VBA",
       "Scrapy",,
-      "Web crawling & scraping",
-      "Data visualizations",
-      "Exploratory data analysis",
+      "Web Crawling & Scraping",
+      "Data Visualization",
+      "Exploratory Data Analysis",
     ],
   }
 ];

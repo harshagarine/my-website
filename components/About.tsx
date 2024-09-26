@@ -14,9 +14,10 @@ export default function About() {
           <Avatar className="w-60 lg:w-72 h-auto border-2 border-primary bg-secondary">
             <AvatarImage src="./avatar.png" />
             <AvatarFallback className="w-72 h-72 lg:w-60 lg:h-60 rounded-full border-1 border-primary">
-              AM
+              HG
             </AvatarFallback>
           </Avatar>
+          
         </div>
         <p className="text-start text-muted-foreground lg:px-6">
         Hey there! I’m Harsha, a software engineering graduate student at SJSU. Currently, I’m a founder’s intern at

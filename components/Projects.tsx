@@ -12,7 +12,7 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/whatsapp.webp",
+    imagePath: "/whatsapp.jpg",
     title: "WhatsApp Clone",
     description:
       "Developed a native Android app called WhatsApp Clone, using Java and Firebase for backend functionality, exploring Android Studio's capabilities. Delivered an app with real-time messaging, file sharing, profile creation, and other key features.",
@@ -24,16 +24,17 @@ const jobProjects = [
     link: "https://github.com/harshagarine/WhatsAppClone",
   },
   {
-    imagePath: "/bloch.webp",
-    title: "Simulation of Bloch Sphere for a Single Qubit",
+    imagePath: "/zoom.jpeg",
+    title: "Zoom Meeting Assistant",
     description:
-      "Developed a javascript-based web tool to simulate a single qubit under various quantum gates and published the chapter in the book \"Technology Road Mapping for Quantum Computing and Engineering.\" ",
+      "Developed a Zoom Meeting Bot that automatically transcribes meetings, generates summaries highlighting key points, and identifies action items such as tasks and deadlines. The bot answers follow-up questions related to the meeting by referencing specific time-stamped transcript sections, improving team efficiency by automating post-meeting reviews.",
     skills: [
-      "JavaScript",
-      "HTML",
-      "CSS",
+      "Python",
+      "Zoom APIs",
+      "GPT-4 API",
+      "Streamlit",
+      "LangChain"
     ],
-    link: "https://github.com/harshagarine/Bloch-sphere-simulation-JS/",
   },
 ];
 
@@ -54,7 +55,7 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="hover:cursor-pointer"
           >
-            <Card className="group lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">
+            <Card className="group lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(94,234,212)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">
               <CardHeader className="h-full w-full lg:w-1/3 mb-4 p-0">
               <Image
                   src={project.imagePath}
