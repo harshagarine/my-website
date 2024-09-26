@@ -53,7 +53,7 @@ export default function Nav() {
           Software Engineering, Data Science and AI nerd.
         </h2>
         <p className="text-[15px] lg:text-start text-muted-foreground">
-          I'm currently a Software Engineering graduate student at SJSU, previously I worked at Deloitte as a software engineer. I love data and the potential it withholds, currently working on Gen AI.
+        I&#39;m currently a Software Engineering graduate student at SJSU, previously I worked at Deloitte as a software engineer. I love data and the potential it withholds, currently working on Gen AI.
         </p>
       </div>
       <nav className="lg:flex hidden">
