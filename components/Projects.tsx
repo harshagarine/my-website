@@ -12,7 +12,7 @@ import { MoveUpRight } from "lucide-react";
 
 const jobProjects = [
   {
-    imagePath: "/whatsapp.png",
+    imagePath: "https://raw.githubusercontent.com/harshagarine/my-website/refs/heads/main/public/whatsapp.png",
     title: "WhatsApp Clone",
     description:
       "Developed a native Android app called WhatsApp Clone, using Java and Firebase for backend functionality, exploring Android Studio's capabilities. Delivered an app with real-time messaging, file sharing, profile creation, and other key features.",
@@ -24,7 +24,7 @@ const jobProjects = [
     link: "https://github.com/harshagarine/WhatsAppClone",
   },
   {
-    imagePath: "/zoom.png",
+    imagePath: "https://raw.githubusercontent.com/harshagarine/my-website/refs/heads/main/public/zoom.png",
     title: "Zoom Meeting Assistant",
     description:
       "Developed a Zoom Meeting Bot that automatically transcribes meetings, generates summaries highlighting key points, and identifies action items such as tasks and deadlines. The bot answers follow-up questions related to the meeting by referencing specific time-stamped transcript sections, improving team efficiency by automating post-meeting reviews.",
