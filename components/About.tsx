@@ -19,7 +19,7 @@ export default function About() {
           </Avatar>
           
         </div>
-        <p className="text-start text-muted-foreground lg:px-6">
+        <p className="text-justify text-muted-foreground lg:px-6">
         Hey there! I’m Harsha, a software engineering graduate student at SJSU. Previously, at Deloitte, I worked on
 revolutionary NLP technologies, creating a significant impact with our document summarization tool. I’m an
 engineer and explorer at heart, which led me to pursue a graduate degree in Silicon Valley far from home.
