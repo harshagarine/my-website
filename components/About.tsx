@@ -20,8 +20,7 @@ export default function About() {
           
         </div>
         <p className="text-start text-muted-foreground lg:px-6">
-        Hey there! I’m Harsha, a software engineering graduate student at SJSU. Currently, I’m a founder’s intern at
-Akube.ai, where I’m involved in key decisions as a Gen AI engineer. Previously, at Deloitte, I worked on
+        Hey there! I’m Harsha, a software engineering graduate student at SJSU. Previously, at Deloitte, I worked on
 revolutionary NLP technologies, creating a significant impact with our document summarization tool. I’m an
 engineer and explorer at heart, which led me to pursue a graduate degree in Silicon Valley far from home.
 Driven by a passion for innovation and creating an impact, I’m seeking full-time employment in the Gen AI
