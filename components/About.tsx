@@ -20,11 +20,7 @@ export default function About() {
           
         </div>
         <p className="text-justify text-muted-foreground lg:px-6">
-        Hey there! I’m Harsha, a software engineering graduate student at SJSU. Previously, at Deloitte, I worked on
-revolutionary Natural Language Processing POC, creating a significant impact with our document summarization tool. I’m an
-engineer and explorer at heart, which led me to pursue a graduate degree in Silicon Valley far from home.
-Driven by a passion for innovation and creating an impact, I’m seeking full-time employment in the Gen AI
-space.
+        Hey there! I’m Harsha, a software engineering graduate student at San Jose State University, based in the heart of Silicon Valley. During my time at Deloitte, I developed an innovative NLP proof of concept that made a tangible impact, particularly through our document summarization tool. With a passion for engineering and exploration, I ventured to Silicon Valley to pursue cutting-edge opportunities and grow my skills. Now, I'm actively seeking full-time software engineering roles where I can continue to innovate and create meaningful solutions.
 
         </p>
       </div>
