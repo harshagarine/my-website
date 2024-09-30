@@ -12,7 +12,7 @@ export default function About() {
       <div className="flex flex-col gap-4">
       <div className="w-full flex lg:items-center lg:justify-center mb-6">
           <Avatar className="w-60 lg:w-72 h-auto border-2 border-primary bg-secondary">
-            <AvatarImage src="./avatar.png" />
+            <AvatarImage src="./avatar.webp" />
             <AvatarFallback className="w-72 h-72 lg:w-60 lg:h-60 rounded-full border-1 border-primary">
               HG
             </AvatarFallback>
