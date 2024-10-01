@@ -13,7 +13,7 @@ export default function Contact() {
       </div>
       <div className="flex flex-col gap-4 lg:px-6 mb-8">
         <h2 className="lg:block hidden text-5xl font-bold lg:text-start">
-          Hire me!
+          Get in Touch
         </h2>
         <p className="lg:text-lg lg:text-start text-muted-foreground">
           I&#39;m looking for internship and full time opportunites and my inbox is
@@ -32,7 +32,7 @@ export default function Contact() {
             <div className="flex flex-row items-center">
               <Mail className="dark:text-white text-muted h-6 w-6" />
               <p className="ml-3 text-2xl dark:text-white text-muted">
-                Say hello
+                Say Hello!
               </p>
             </div>
           </Button>
