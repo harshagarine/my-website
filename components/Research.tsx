@@ -19,7 +19,7 @@ const jobResearchs = [
       "Python",
       "Beautiful Soup",
       "Excel VBA",
-      "Scrapy",,
+      "Scrapy",
       "Web Crawling & Scraping",
       "Data Visualization",
       "Exploratory Data Analysis",
@@ -66,20 +66,20 @@ export default function Research() {
             target="_blank"
             href={research.link}
             rel="noopener noreferrer"
-            className="hover:cursor-pointer"
+            className="hover:cursor-pointer block mb-8 group"
           >
-            <Card className="group lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200">      
+            <Card className="lg:p-6 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent bg-transparent lg:backdrop-blur-sm lg:group-hover:bg-slate-200/40 dark:lg:group-hover:bg-white/5 lg:group-hover:backdrop-blur-md lg:group-hover:border-slate-300 dark:lg:group-hover:border-white/10 lg:group-hover:shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] dark:lg:group-hover:shadow-[0_8px_32px_0_rgba(100,100,255,0.05)] transition-colors duration-150">
               <CardContent className="flex flex-col p-0 w-full lg:w-full">
-                <p className="text-primary font-bold">
+                <p className="text-slate-800 dark:text-slate-200 font-semibold group-hover:text-teal-600 dark:group-hover:text-teal-300 transition-colors">
                   {research.title}{" "}
                   <MoveUpRight className="ml-1 inline-block h-5 w-5 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 motion-reduce:transition-none" />
                 </p>
-                <CardDescription className="py-3 text-muted-foreground">
+                <CardDescription className="py-3 text-slate-600 dark:text-muted-foreground group-hover:text-slate-900 dark:group-hover:text-slate-300 transition-colors">
                   {research.description}
                 </CardDescription>
                 <CardFooter className="p-0 flex flex-wrap gap-2">
                   {research.skills.map((skill, index) => (
-                    <Badge key={index}>{skill}</Badge>
+                    <Badge key={index} className="bg-teal-100/50 text-teal-800 hover:bg-teal-200/50 dark:bg-teal-400/10 dark:text-teal-300 dark:hover:bg-teal-400/20 backdrop-blur-md border border-teal-200 dark:border-teal-400/20">{skill}</Badge>
                   ))}
                 </CardFooter>
               </CardContent>
