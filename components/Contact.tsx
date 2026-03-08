@@ -28,10 +28,10 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="hover:cursor-pointer w-full"
         >
-          <Button variant={"default"} className="w-full h-full">
-            <div className="flex flex-row items-center">
-              <Mail className="dark:text-white text-muted h-6 w-6" />
-              <p className="ml-3 text-2xl dark:text-white text-muted">
+          <Button className="w-full h-auto py-6 bg-teal-50 text-teal-800 hover:bg-teal-100 dark:bg-teal-400/10 dark:hover:bg-teal-400/20 border border-teal-200 dark:border-teal-400/20 backdrop-blur-md transition-all duration-300 shadow-[0_0_15px_rgba(13,148,136,0.05)] hover:shadow-[0_0_25px_rgba(13,148,136,0.15)] dark:shadow-[0_0_15px_rgba(45,212,191,0.1)] dark:hover:shadow-[0_0_25px_rgba(45,212,191,0.3)] group rounded-xl">
+            <div className="flex flex-row items-center justify-center">
+              <Mail className="text-teal-600 group-hover:text-teal-700 dark:text-teal-300 dark:group-hover:text-teal-200 h-8 w-8 transition-colors" />
+              <p className="ml-3 text-3xl font-bold text-teal-700 group-hover:text-teal-800 dark:text-teal-300 dark:group-hover:text-teal-200 transition-colors">
                 Say Hello!
               </p>
             </div>

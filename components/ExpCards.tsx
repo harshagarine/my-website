@@ -12,58 +12,40 @@ import { MoveRight } from "lucide-react";
 
 const jobPositions = [
   {
-    timeline: "Aug 2022 — Aug 2023",
+    timeline: "Feb 2026 – Present",
+    currentPosition: "Software Engineer",
+    place: "Proofpoint",
+    previousPositions: [],
+    description:
+      "Modernized a legacy C++ and Python backend integration layer of email spam classifier engine using SWIG, Puppet and CMake. Supporting infrastructure migration from AWS to Azure and automating EKS clusters, VPC, ALB, and IAM provisioning with Terraform.",
+    skills: ["C++", "Python", "AWS", "Azure", "Terraform", "EKS", "Puppet", "SWIG"],
+  },
+  {
+    timeline: "Jun 2025 – Feb 2026",
+    currentPosition: "Software Engineer Intern",
+    place: "Proofpoint",
+    previousPositions: [],
+    description:
+      "Architected test infrastructure using k6 to evaluate performance of a legacy C++ spam classifier. Built an inference pipeline for privacy-preserving synthetic email data generation using LLMs on AWS GPUs (10x cost optimization). Engineered Go-based backend tooling for automated performance testing.",
+    skills: ["GoLang", "C++", "LLMs", "AWS GPUs", "k6", "Performance Testing"],
+  },
+  {
+    timeline: "Aug 2022 – Aug 2023",
     currentPosition: "Software Engineer",
     place: "Deloitte",
-    previousPositions: [""],
+    previousPositions: [],
     description:
-      "I've designed and developed data workflows on Alteryx to streamline ETL processes for data summarization, cleansing, and comparison. Additionally, I created a data-transformation module integrating Alteryx workflows with the MyGI Deloitte portal using Angular, .NET, and SQL Server. Presented the Document Summarizer Platform (POC) with Named Entity Recognition (NER), Optical Character Recognition (OCR), and text classification, significantly optimizing the processing of over 1,000 tax R&D documents and reducing processing time.",
-    skills: [
-      "Alteryx",
-      "ETL Processes",
-      "Angular",
-      ".NET",
-      "SQL Server",
-      "Azure Cloud",
-      "NER",
-      "OCR",
-      "Data Summarization",
-      "Data Cleansing",
-    ],
+      "Co-Developed an ETL platform leveraging AWS and Alteryx, reducing query latency by 40%. Rebuilt the IncentiveHub SaaS platform using Python, Django, and Azure Durable Functions and modernized a legacy monolithic API to FastAPI microservices on AWS EKS.",
+    skills: ["Python", "AWS", "FastAPI", "Docker", "Kafka", "Airflow", "Azure"],
   },
   {
-    timeline: "Jan 2022 — Jul 2022",
-    currentPosition: "Machine Learning Intern",
-    place: "Sabudh Foundation",
-    previousPositions: [""],
+    timeline: "Jan 2021 – Jul 2021",
+    currentPosition: "Software Engineer Intern",
+    place: "Deloitte",
+    previousPositions: [],
     description:
-      "I developed a multifaceted approach incorporating three deep learning algorithms, including Generative Adversarial Networks (Real ESR-GAN), to improve the perceptual quality of Single Image Super-Resolution by 40%. Additionally, I created a MERN stack web application hosted on Heroku, allowing users to upload, preview, and compare images with a seamless UX/UI for enhancing image resolution.",
-    skills: [
-      "Generative Adversarial Networks",
-      "Deep learning",
-      "ReactJS",
-      "NodeJS",
-      "MongoDB",
-      "Heroku",
-      "UX/UI",
-    ],
-  },
-  {
-    timeline: "Dec 2021 - July 2022",
-    currentPosition: "Research Assistant",
-    place: "BML Munjal University",
-    previousPositions: [""],
-    description:
-      "Analyzed bibliographic data of retracted research papers using web crawling and scraping techniques with Python (Beautiful Soup, Scrapy). I processed and cleaned data, created visualizations, and presented insights in a  paper.",
-    skills: [
-      "Python",
-      "Beautiful Soup",
-      "Excel VBA",
-      "Scrapy",,
-      "Web Crawling & Scraping",
-      "Data Visualization",
-      "Exploratory Data Analysis",
-    ],
+      "Implemented a CI/CD pipeline for TensorFlow models (TF Serving, GKE), reducing deployment time. Orchestrated security compliance checks across 200+ GCP environments using Python and GCP Security Command Center.",
+    skills: ["Python", "TensorFlow", "GKE", "GCP", "CI/CD", "Security"],
   }
 ];
 
@@ -79,28 +61,28 @@ export default function ExpCard() {
         {jobPositions.map((job, index) => (
           <Card
             key={index}
-            className="lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent hover:border dark:lg:hover:border-t-blue-900 dark:lg:hover:bg-slate-800/50 lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:hover:drop-shadow-lg lg:hover:bg-slate-100/50 lg:hover:border-t-blue-200"
+            className="group lg:p-6 mb-8 flex flex-col lg:flex-row w-full min-h-fit gap-0 lg:gap-5 border-transparent bg-transparent lg:backdrop-blur-sm lg:hover:bg-slate-200/40 dark:lg:hover:bg-white/5 lg:hover:backdrop-blur-md lg:hover:border-slate-300 dark:lg:hover:border-white/10 lg:hover:shadow-[0_8px_32px_0_rgba(0,0,0,0.1)] dark:lg:hover:shadow-[0_8px_32px_0_rgba(100,100,255,0.05)] transition-colors duration-150"
           >
             <CardHeader className="h-full w-full p-0">
-              <CardTitle className="text-xs text-slate-400 whitespace-nowrap pt-1">
+              <CardTitle className="text-xs text-slate-500 dark:text-slate-400 whitespace-nowrap pt-1">
                 {job.timeline}
               </CardTitle>
             </CardHeader>
             <CardContent className="flex flex-col p-0">
-              <p className="text-primary font-bold">
+              <p className="text-slate-800 dark:text-slate-200 font-semibold group-hover:text-teal-600 dark:group-hover:text-teal-300 transition-colors">
                 {job.currentPosition} • {job.place}
               </p>
-              {job.previousPositions.map((position, index) => (
-                <p key={index} className="text-slate-400 text-sm font-bold">
+              {job.previousPositions.map((position, i) => (
+                <p key={i} className="text-slate-600 dark:text-slate-400 text-sm font-bold">
                   {position}
                 </p>
               ))}
-              <CardDescription className="py-3 text-muted-foreground">
+              <CardDescription className="py-3 text-slate-600 dark:text-muted-foreground group-hover:text-slate-900 dark:group-hover:text-slate-300 transition-colors">
                 {job.description}
               </CardDescription>
               <CardFooter className="p-0 flex flex-wrap gap-2">
-                {job.skills.map((skill, index) => (
-                  <Badge key={index}>{skill}</Badge>
+                {job.skills.map((skill, i) => (
+                  <Badge key={i} className="bg-teal-100/50 text-teal-800 hover:bg-teal-200/50 dark:bg-teal-400/10 dark:text-teal-300 dark:hover:bg-teal-400/20 backdrop-blur-md border border-teal-200 dark:border-teal-400/20">{skill}</Badge>
                 ))}
               </CardFooter>
             </CardContent>

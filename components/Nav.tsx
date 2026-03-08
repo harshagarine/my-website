@@ -30,16 +30,14 @@ export default function Nav() {
     const isActive = activeSection === href.substring(1);
     return {
       linkClass: isActive ? "active" : "",
-      indicatorClass: `nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all ${
-        isActive
-          ? "active w-16 bg-foreground h-2"
-          : "group-hover:w-16 group-hover:bg-foreground group-hover:h-px"
-      }`,
-      textClass: `nav-text text-xs font-bold uppercase tracking-widest ${
-        isActive
-          ? "text-foreground"
-          : "text-slate-500 group-hover:text-foreground"
-      }`,
+      indicatorClass: `nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all ${isActive
+        ? "active w-16 bg-foreground h-2"
+        : "group-hover:w-16 group-hover:bg-foreground group-hover:h-px"
+        }`,
+      textClass: `nav-text text-xs font-bold uppercase tracking-widest ${isActive
+        ? "text-foreground"
+        : "text-slate-500 group-hover:text-foreground"
+        }`,
     };
   };
 
@@ -50,10 +48,10 @@ export default function Nav() {
           Hi, I&#39;m Harsha 👋
         </h1>
         <h2 className="text-[18px] lg:text-start">
-          Software Engineering, Data Science and AI nerd.
+          Software Engineer by day, AI wrangler by night.
         </h2>
         <p className="text-[15px] lg:text-start text-muted-foreground">
-        I&#39;m currently a Software Engineering graduate student at SJSU, previously I worked at Deloitte as a software engineer. I love data and the potential it withholds, currently working on Gen AI.
+          I build scalable systems, play with LLMs, and turn copious amounts of coffee into working code. Currently doing exactly that at Proofpoint!
         </p>
       </div>
       <nav className="lg:flex hidden">
