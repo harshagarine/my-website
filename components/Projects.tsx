@@ -9,10 +9,12 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MoveUpRight } from "lucide-react";
+import guardianImg from "../public/guardian.png";
+import nutrigenieImg from "../public/nutrigenie.png";
 
 const jobProjects = [
   {
-    imagePath: "/guardian.png",
+    imagePath: guardianImg,
     title: "Generative AI Guardian",
     description:
       "Developed an enterprise LLM management platform using Python (FastAPI) and microservices architecture to centralize cost control, security enforcement, and usage monitoring across 6+ LLM providers. Implemented guardrails with ML-based prompt injection detection, PII filtering, and content moderation.",
@@ -20,7 +22,7 @@ const jobProjects = [
     link: "https://github.com/harshagarine", // Placeholder, update if needed
   },
   {
-    imagePath: "/nutrigenie.png",
+    imagePath: nutrigenieImg,
     title: "Agentic Diet Planner",
     description:
       "Built an AI-powered multi-agent diet planner to generate and adapt personalized 7-day meal plans. Designed 3 collaborating AI agents for meal planning, user feedback tracking, and ingredient sourcing through online marketplaces. Integrated contextual memory and vector databases.",
